@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 3, 2017, 6:48:01 PM
+    Author     : 00139155
+*/
+#cabecera{
+    /*Aplicando tipo, aliniacion y tamaño de letras a la cabecera*/
+    font-family: Segoe UI Light;
+    font-size: 40px;
+    text-align: center;
+}
+
+ul li {
+    
+    list-style-type: none;
+        background-image: url("https://media.giphy.com/media/3XdsWf4oqSZ6E/giphy.gif");
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    }
+    #menu{
+        text-align: center;
+        color: white;
+    }
+    #cuerpo{
+        text-align: center;
+        font-family: Segoe UI Light;
+        font-size: 20px;
+    }
+    #pie{
+        background: #0080FF;
+        text-align: center;
+        
+    }
+    a:hover {
+        color: white;
+        font-size: 28px;
+    }
+    a{
+        text-decoration: none;
+    }
+    form{
+        /*centrando el formulario y poniendo borde*/
+        background-color: white;
+        margin: 0 auto;
+        width: 600px;
+        padding: 1em;
+        border: 1px solid #000 ;
+        border-radius: 1em;
+        
+    }
+    for div{
+        margin-top: 2em;
+        
+    }
+    a:link {
+        color:black
+    }
+    a:visited{
+        color:blue
+    }
+    a:active{
+        color: darkcyan
+    }
+    label{
+        display: inline-block;
+        width: 100px;
+        text-align: right;
+        
+    }
+    #jp{
+        text-align: center;
+    }
+    imput,textArea{
+        font:Segoe UI Light;
+        width: 300px;
+    }
+    imput:focus, textArea:focus{
+        border-color: red;
+    }
+    textarea{
+        vertical-align: top;
+    }
+    #fondo{
+        background:black;
+        
+    }
